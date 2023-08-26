@@ -1,5 +1,5 @@
-# eshopappltd
-eshopappltd is an E-commerce web App made with MERN Stack, Redux and stripe payment gateway. We have implemented a lot of great features.
+# ecommerce store
+This is a E-commerce web App built with MERN Stack, Redux and stripe payment gateway. 
 The app is deployed at https://eshopappltd.onrender.com/
 
 
