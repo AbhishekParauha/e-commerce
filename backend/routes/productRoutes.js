@@ -13,7 +13,4 @@ router.get("/product/:id", singleProduct);
 router.put("/product/edit/:id", isAuthenticated, isAdmin,  editProduct);
 router.delete("/product/delete/:id", isAuthenticated, isAdmin, deleteProduct);
 
-
-
-
 module.exports = router;
