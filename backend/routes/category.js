@@ -11,7 +11,4 @@ router.delete("/category/delete/:id",  isAuthenticated, isAdmin,  deletecategory
 router.put("/product/category/update/:id", isAuthenticated, isAdmin,  updatecategory);
 router.get("/product/category/show/:id",   singlecategory);
 
-
-
-
 module.exports = router;
