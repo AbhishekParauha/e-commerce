@@ -10,9 +10,6 @@ import Loading from './component/Loading';
 import 'antd/dist/antd.css';
 import { Pagination } from 'antd';
 
-
-
-
 const App = ({match}) => {
 
     const keyword = match.params.keyword;
@@ -59,6 +56,5 @@ const App = ({match}) => {
         </>
     )
 }
-
 export default App;
 
