@@ -6,8 +6,6 @@ import axios from 'axios'
 
 const Signup = ({history}) => {
 
-
-
     const [values, setValues] = useState({
         name: '',
         email: '',
@@ -32,7 +30,6 @@ const Signup = ({history}) => {
         }
 
     }
-
     //console.log("avatar test", avatar);
 
     // get the values in the form
